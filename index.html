@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body> 
+    <div id="main">
+        <div class="search">
+            <input id="cityinput" type="text" name="city" placeholder="Enter City Name" required>
+            <button id="searchbtn">
+                <i class="ri-search-line"></i>
+            </button>
+        </div>
+        <div id="info">
+            <div id="weather">
+                <img id="weatherimg" src="images/weather.png" alt="">
+                <div id="temp">
+                    <h1 id="temperature">--°C</h1>
+                    <h2 id="city">pick a city, genius</h2>
+                </div>
+            </div>
+            <div id="weather2">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                   <div>
+                       <p id="humidity">probably wet</p>
+                       <p><b>humidity</b></p>
+                   </div>
+                </div>
+                <div class="col">
+                    <i class="ri-windy-line"></i>
+                    <!-- <img id="windimg" src="images/wind.png" alt=""> -->
+                    <div>
+                        <p id="wind">Ask the trees </p>
+                        <p><b>wind</b></p>
+                    </div>
+                </div> 
+            </div>  
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

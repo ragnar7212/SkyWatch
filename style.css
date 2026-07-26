@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans Medium", sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;  
+}
+body{
+    background-color: black;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.search{
+    /* background-color: blue; */
+    display: flex;
+    padding: 100px 0 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.search input{
+    /* background-color: red; */
+    height: 80px;
+    border: 0;
+    outline: 0;
+    padding: 3% 8%;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.search button {
+    height: 80px;
+    border: 0;
+    outline: 0;
+    padding: 3%;
+    border-radius: 40px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.search button i{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#info{
+}
+#weather{
+    background-color: rgba(238, 227, 227 ,0.2);
+    margin: 0 15% 0;
+    border-radius: 30px;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 80px;
+    /* padding: 10px ; */
+    /* padding-left: 35%; */
+}
+#weather img{
+    width: 150px;
+}
+#weather h1{
+    font-size: 50px;
+}
+#weather h2{
+    font-size: 30px;
+}
+
+#weather2{
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(240, 38%, 89%, 0.2);
+    border-radius: 30px;
+    gap: 25px;
+    padding-right: 10px;
+}
+.col img{
+    width: 130px;
+}
+.col i{
+    font-size: 120px;
+}
+.col p{
+    font-size: 40px;
+    border-left: 4px solid black;
+    padding-left: 10px;
+}
+#windimg{
+    width: 100px;
+}
+
+.col p, .col i,
+#temperature,
+#city {
+    text-shadow: 2px 2px 5px  rgb(170, 209, 225);
+}
