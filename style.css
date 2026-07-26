@@ -21,7 +21,6 @@ body{
     background-position: center;
 }
 .search{
-    /* background-color: blue; */
     display: flex;
     padding: 100px 0 70px;
     align-items: center;
@@ -54,19 +53,14 @@ body{
     font-weight: 500;
 }
 
-#info{
-}
 #weather{
     background-color: rgba(238, 227, 227 ,0.2);
     margin: 0 15% 0;
     border-radius: 30px;
-    /* border: 2px solid white; */
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     gap: 80px;
-    /* padding: 10px ; */
-    /* padding-left: 35%; */
 }
 #weather img{
     width: 150px;
@@ -79,7 +73,6 @@ body{
 }
 
 #weather2{
-    /* background-color: lightgreen; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
