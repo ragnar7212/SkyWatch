@@ -8,8 +8,6 @@ const city = document.querySelector("#city")
 
 const weatherimg = document.querySelector("#weatherimg")
 
-const apikey = "dd76ab3a28c571522d16d5d2c3ae66dd"
-
 const bgimage = document.querySelector("#main")
 
 
